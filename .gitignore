@@ -1,0 +1,19 @@
+# Proprietary binaries and local device information
+source/
+source-reference/
+work/
+output/
+versions/
+backups/
+reports/
+*.img
+*.bin
+*.zip
+*.cpio
+*.apk
+*.jar
+*.dll
+*.exe
+__pycache__/
+.env
+.env.*
