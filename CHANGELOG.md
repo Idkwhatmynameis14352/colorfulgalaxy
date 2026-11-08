@@ -1,8 +1,13 @@
 # Changelog
 
 ## v1.1 — Unreleased
-- Reserved for the next smoothing and bug-fix session.
-- No changes implemented yet.
+- 2026-11-08: Investigated GPU/HWC, CPU scaling, temperatures, memory activity, ART state and keyboard selection before tuning.
+- Disabled and reversibly isolated official OPPO OTA/COTA updater components; no official firmware flashed.
+- Restored a missing default keyboard selection; passed three Settings-search appearances.
+- Retained targeted launcher AOT compilation after an initial transition test improved; no graphics/animation, CPU-frequency, thermal or memory tuning applied.
+- Reverted a Settings compilation experiment whose benefit was not reproducible.
+- Added apply/rollback scripts and detailed measurements/limits in docs/v1.1.md.
+- Daily-use validation remains in progress; v1 remains preserved.
 
 ## v1 — 2026-11-07
 - Prepared an S8+ boot candidate using hlong's dream2lte kernel and hardware description with the ColorOS donor startup files.

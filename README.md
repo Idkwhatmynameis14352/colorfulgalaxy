@@ -1,9 +1,9 @@
-# colorfulgalaxy — ColorOS 16 for Samsung Galaxy S8+
+# ColorOS 16 for Samsung Galaxy S8+
 
 Experimental ColorOS 16 port for the European Exynos Galaxy S8+ (SM-G955F / dream2lte).
 
 ## Status
-Version **v1** successfully boots on the owner's phone, confirmed 7 November 2026. Other hardware functions and smoothness still need testing. The next version is **v1.1**.
+Version **v1** successfully boots on the owner's phone, confirmed 7 November 2026. Other hardware functions and smoothness still need testing. **v1.1 is in testing**: OTA isolation, keyboard selection repair and a targeted launcher compilation experiment. See [v1.1 notes](docs/v1.1.md).
 
 ## v1 composition
 - System, vendor and product: user-supplied ColorOS_16.0.4_8895_v2 donor.
@@ -18,7 +18,7 @@ This repository tracks project notes and preparation scripts. Proprietary firmwa
 The scripts expect source/ for the supplied kernel and donor archives, work/donor/ for extracted boot/system/vendor/product images, reports/ for manifests, and output/ for generated files. Run from the project root using Python. Inputs are not distributed here; obtain them from their original maintainers.
 
 ## Credits
-ColorOS/OPPO and Samsung for original firmware components; MakrSus and the ColorOS S8 port maintainers for the supplied donor; hlong/UN1GAGA and upstream UN1CA contributors for the kernel and hardware base. This is an unofficial personal porting project. Firmware/component rights remain with their respective owners. No new license is asserted over upstream material.
+ColorOS/OPPO and Samsung for original firmware components; the ColorOS S8 port maintainers for the supplied donor; hlong/UN1GAGA and upstream UN1CA contributors for the kernel and hardware base. This is an unofficial personal porting project. Firmware/component rights remain with their respective owners. No new license is asserted over upstream material.
 
 ## Continuing work
 Preserve v1 as the booting baseline. Record future fixes and validation in CHANGELOG.md under v1.1, with one focused commit per change. Start with the owner's observed issues; do not assume untested features work.
